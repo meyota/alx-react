@@ -1,7 +1,7 @@
-import React from 'react'
-import "./Notifications.css"
-import close from './close-icon.png'
-import { getLatestNotification } from './utils'
+import React from 'react';
+import "./Notifications.css";
+import close from '../assets/close-icon.png';
+import { getLatestNotification } from '../utils/utils';
 
 const /* A component that will render a list of notifications. */
 Notifications = () => {
@@ -25,4 +25,4 @@ Notifications = () => {
   )
 }
 
-export default Notifications
+export default Notifications;
