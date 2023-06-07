@@ -5,7 +5,7 @@ import Login from "../Login/Login";
 import Footer from "../Footer/Footer";
 import CourseList from "../CourseList/CourseList";
 import PropTypes from "prop-types";
-import "./App.css";
+import "./App";
 import { getLatestNotification } from "../utils/utils";
 
 class App extends React.Component {
